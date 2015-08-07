@@ -22,7 +22,8 @@
     "react-component"
   ],
   "peerDependencies": {
-    "react": ">=0.13.0"
+    "react": "0.14.0-beta1",
+    "react-dom": "0.14.0-beta1"
   },
   "scripts": {
     "start": "babel --watch --source-maps-inline --optional='es7.classProperties' --out-dir='lib' src",
